@@ -9,7 +9,10 @@ let package = Package(
     targets: [
         .target(
             name: "CountryPickerView",
-            path: "CountryPickerView"
+            path: "CountryPickerView",
+            resources: [
+            .copy("Assets/CountryPickerView.bundle"),
+            .copy("CountryPickerView.xib")]
         )
     ]
 )
