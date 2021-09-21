@@ -254,11 +254,11 @@ extension CountryPickerViewController: UISearchBarDelegate {
 // Fixes an issue where the search bar goes off screen sometimes.
 extension CountryPickerViewController: UISearchControllerDelegate {
     public func willPresentSearchController(_ searchController: UISearchController) {
-        self.navigationController?.navigationBar.isTranslucent = true
+//        self.navigationController?.navigationBar.isTranslucent = true
     }
     
     public func willDismissSearchController(_ searchController: UISearchController) {
-        self.navigationController?.navigationBar.isTranslucent = false
+//        self.navigationController?.navigationBar.isTranslucent = false
     }
 }
 
